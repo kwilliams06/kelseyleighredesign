@@ -1,0 +1,19 @@
+{
+  "name": "kelsey-williams-portfolio",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kwilliams06/kelseyleighredesign.git"
+  },
+  "author": "Kelsey Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwilliams06/kelseyleighredesign/issues"
+  },
+  "homepage": "https://github.com/kwilliams06/kelseyleighredesign#readme"
+}
