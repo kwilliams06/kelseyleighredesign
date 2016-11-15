@@ -58,6 +58,26 @@ ul {
   display: table;
   clear: both; }
 
+/***********/
+.logo {
+  width: 10%;
+  height: 10%; }
+
+.nav-social-media .icon {
+  height: 5%;
+  width: 5%; }
+@media (min-width: 600px) {
+  .nav-social-media {
+    float: right; } }
+
+@media (min-width: 600px) {
+  .project-item {
+    width: 25%;
+    float: left;
+    margin-right: 1%; }
+    .project-item:last-child {
+      margin-right: 0; } }
+
 /* flex box - handle layout - media queries */
 /* add default "normalize" styles */
 /* create modules  - use my boilerplate*/

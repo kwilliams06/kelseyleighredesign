@@ -9,6 +9,12 @@
 // --------------------------
 @import 'layout/defaults';
 
+// --------------------------
+// modules
+// --------------------------
+@import 'modules/navigation';
+@import 'modules/project-item';
+
 /* flex box - handle layout - media queries */
 /* add default "normalize" styles */
 /* create modules  - use my boilerplate*/
