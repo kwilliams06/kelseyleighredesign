@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+html {
+  @include box-sizing(border-box);
+  font-size:$base-font-size;
+}
+*,
+*:after,
+*:before {
+  @include box-sizing(inherit);
+}
+body {
+  @include margin-auto();
+  //background-color:$background-color;
+  background-color:#fff;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+.row{
+  @include clearfix();
+  margin:0 0 20px;
+}
+.layout {
+  *zoom: 1;
+  @include rem("padding", 10, 10, 10, 10);
+  position:relative;
+  @include respond-to('medium') {
+        @include margin-auto();
+        @include rem("padding", 16, 20, 16, 20);
+        width:94%;
+      }
+}
+.layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
